@@ -1,6 +1,21 @@
+html{
+    overflow-x: hidden;
+    width: 100vw;
+}
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+max-width: 100vw;
+}
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
 .contact-navbar{
     background-color: #262869;
     color: white!important;
+    width: 100vw;
 
 }
 
@@ -44,6 +59,7 @@ height: 70px!important;
     background-image: url('crane.jpg');
     height: 100vh;
     width: 100%;
+    background-size: cover;
 }
 
 .header:before {
@@ -174,7 +190,6 @@ height: 70px!important;
   
 
 .services{
-    height: 80vh;
     width: 100%;
 }
 
@@ -185,7 +200,7 @@ height: 70px!important;
     margin-top: 15px;
     height: auto;
     width: 25%;
-    padding: 35px 9px;
+    padding: 30px 9px;
     border: none!important;
     border-bottom: 3px solid blue !important;
 }
@@ -257,7 +272,7 @@ height: 70px!important;
 
 
 .about_us{
-    width: 100%;
+    width: 100vw;
     height: 75vh;
     background-image: url('industry2.jpg');
     filter: saturate(40%);
@@ -266,11 +281,12 @@ height: 70px!important;
 
 .about_us-div{
     background-color: white;
-    width: 40%;
-    padding: 25px 10px;
+    width: 400px;
+    max-width: 80vw;
     float: right;
-    margin-right: 100px;
-    margin-top: 130px;
+    padding: 25px 10px;
+    margin-right: 10vw;
+    margin-top: 15vh;
     border-radius: none!important;
 }
 .about_us-div p{
@@ -316,7 +332,6 @@ height: 70px!important;
     right: 0;
     top: 0;
     bottom: 0;
-    height: 90vh;
     width: 100%;
 }
 
@@ -371,6 +386,7 @@ height: 70px!important;
 .sub-head-points i{
     background-color: #519e24;
     margin: 2px 3px;
+    height: fit-content;
     padding: 1px 5px;
     border-radius: 100%;
     color: white;
@@ -383,7 +399,7 @@ height: 70px!important;
     top: 0;
     bottom: 0;
     width: 100%;
-    height: 70vh;
+    height: fit-content;
 }
 
 .footer{
@@ -462,7 +478,6 @@ margin-left: 15px;
 
 .register-button{
  float: right;
- margin-top: -40px!important;
  background-color: white;
  border: 1px solid white;
  margin: 0 0px;
@@ -485,15 +500,15 @@ margin-left: 15px;
 .license{
     margin-top: 80px;
     border-top: 1px solid gray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .copyright, .creator{
     padding-top: 20px;
 }
-.creator{
-    float: right;
-    margin-top: -60px;
-}
+
 
 .about .button a{
     color: white;
