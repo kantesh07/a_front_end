@@ -1,0 +1,534 @@
+.contact-navbar{
+    background-color: #262869;
+    color: white!important;
+
+}
+
+.navbar-text{
+    margin-left: 30px!important;
+}
+
+.navbar-text-icon{
+    margin-left: 10px;
+}
+
+.navbar-2{
+height: 70px!important;
+}
+
+.navbar-info{
+    margin-right: 30px;
+}
+
+.nav-item{
+    margin-right: 20px!important;
+}
+
+.nav-register-button{
+    float: right;
+    background-color: #519e24;
+    border: 1px solid white;
+    margin: 0 0px;
+    width: 130px;
+    padding:10px 10px ;
+    outline: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;   
+   }
+   
+
+.header{
+    background-image: url('crane.jpg');
+    height: 100vh;
+    width: 100%;
+}
+
+.header:before {
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+    opacity: .1%;
+    z-index: -1;
+    background: linear-gradient(to right, #1b0b38 0%, #262869 0%, #393469 100%);
+}
+
+.header-section{
+    width: 100%;
+    height: inherit;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.extra-div h1 {
+    color: #262869;
+}
+
+.extra-div p{
+    color: grey;
+}
+
+.label p{
+    color: #519e24;
+}
+
+.center-div{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+.header-buttons a{
+    border: 1px solid white;
+    margin: 0 5px;
+    background: #2eb82e;
+    padding:12px 35px ;
+    outline: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.center-div p{
+    font-size: 1.3rem;
+    padding: 10px 0 20px 0 ;
+    color: white;
+}
+
+.headings{
+    margin-top: 90px;
+}
+
+.headings h1{
+  position: relative;
+}
+
+.headings h1::before{
+    content: "";
+    position: absolute;
+    bottom: -19px;
+    height: 1px;
+    width: 50px;
+    left: 0;
+    background-color: #262869;
+}
+
+.headings h1::after{
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    height: 1px;
+    width: 105px;
+    left: 0;
+    background-color: #519e24;
+}
+
+
+
+.image{
+    height: 300px;
+    width: 450px;
+    filter: brightness(80%);
+    padding-bottom: 30px;
+}
+
+.image1{
+    margin-top: -30px;
+}
+
+.label {
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+  }
+  
+  .label > div {
+    background-color: white;
+    width: 300px;
+    height: 130px;
+    margin-left: 1px;
+    margin-top: 65px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow:0 0 20px 0 rgba(0, 0, 0, 0.3) ;
+  }
+
+.sub-level{
+    margin-top: 20px;
+}
+  
+
+.services{
+    height: 80vh;
+    width: 100%;
+}
+
+.services-div{
+    background-color: #f1f1f1!important;
+    text-align: center;
+    margin: 10px;
+    margin-top: 15px;
+    height: auto;
+    width: 25%;
+    padding: 35px 9px;
+    border: none!important;
+    border-bottom: 3px solid blue !important;
+}
+
+.services-div h5{
+    line-height: 5rem;
+}
+
+.services .headings{
+    text-align: left!important;
+    margin-left: 128px;
+}
+
+.services p{
+    color: grey;
+}
+
+.services h1{
+    color: #262869;
+}
+
+.services h1{
+    position: relative;
+}
+
+.services h1::before{
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    height: 1px;
+    width: 50px;
+    left: 0;
+    background-color: #262869;
+}
+
+.services h1::after{
+    content: "";
+    position: absolute;
+    bottom: -16px;
+    height: 1px;
+    width: 105px;
+    left: 0;
+    background-color: #519e24;
+}
+
+
+
+.arrow-button{
+   position: relative;
+   top: 52px;
+   
+}
+
+.products-arrow{
+    top: 97px!important;
+}
+
+.arrow-button i{
+    background-color: white;
+    padding: 10px 16px;
+    border-radius: 100%;
+    color: blue;
+    box-shadow:0 0 20px 0 rgba(0, 0, 0, 0.3) ;
+}
+
+.services-div i {
+    color: #262869;
+}
+
+
+.about_us{
+    width: 100%;
+    height: 75vh;
+    background-image: url('industry2.jpg');
+    filter: saturate(40%);
+    margin-bottom: 100px;
+}
+
+.about_us-div{
+    background-color: white;
+    width: 40%;
+    padding: 25px 10px;
+    float: right;
+    margin-right: 100px;
+    margin-top: 130px;
+    border-radius: none!important;
+}
+.about_us-div p{
+    margin-top: 25px;
+
+}
+
+.about_us-div h1{
+    position: relative;
+}
+
+.about_us-div h1::before{
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    height: 1px;
+    width: 50px;
+    left: 0;
+    background-color: #262869;
+}   
+
+.about_us-div h1::after{
+    content: "";
+    position: absolute;
+    bottom: -16px;
+    height: 1px;
+    width: 105px;
+    left: 0;
+    background-color: #519e24;
+}
+
+.about_us-div h1{
+    color: #262869;
+}
+
+.about_us-div a{
+    color: #519e24;
+    font-weight: 600;
+}
+
+.sourcing{
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 90vh;
+    width: 100%;
+}
+
+.image_source{
+    height: 500px;
+    width: 500px;
+    margin-left: -40px;
+}
+
+.sub-head p, .sub-head-div h6{
+    color: grey;
+}
+
+.sub-head h1{
+    color: #262869;
+}
+
+.sub-head h1{
+    position: relative;
+}
+
+.sub-head h1::before{
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    height: 1px;
+    width: 50px;
+    left: 0;
+    background-color: #262869;
+
+}
+
+.sub-head h1::after{
+    content: "";
+    position: absolute;
+    bottom: -16px;
+    height: 1px;
+    width: 105px;
+    left: 0;
+    background-color: #519e24;
+}
+
+
+.sub-head-points{
+    color: black!important;
+}
+
+.inner-p{
+    color: grey;
+}
+
+.sub-head-points i{
+    background-color: #519e24;
+    margin: 2px 3px;
+    padding: 1px 5px;
+    border-radius: 100%;
+    color: white;
+}
+
+
+.footer{
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 70vh;
+}
+
+.footer{
+    background-color: #1b0b38;
+    color: white;
+    margin-top: -25px;
+}
+
+.button{
+    border: 1px solid white;
+    margin: 0 0px;
+    width: 200px;
+    padding:10px 10px ;
+    outline: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+}
+
+
+.about h3, .contact h3{
+    position: relative;
+}
+
+.about h3::before, .contact h3::before{
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    height: 1px;
+    width: 50px;
+    left: 0;
+    background-color: #262869;
+}
+
+
+.about h3::after, .contact h3::after{
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    height: 1px;
+    width: 105px;
+    left: 0;
+    background-color: #519e24;   
+}
+
+
+.sub-head{
+    margin-top: 20px;
+}
+.sub-head-div{
+    margin-top: 30px;
+}
+
+.sub-head-points{
+margin-left: 15px;
+}
+
+.footer-div{
+    padding-top: 85px;
+}
+
+.logo {
+    padding-top: 120px;
+}
+
+.register{
+    background-color: #519e24;
+    color: white;
+    padding: 50px;
+    margin-top: -120px;
+    z-index: 10;
+    position: relative;
+}
+
+.register-button{
+ float: right;
+ margin-top: -40px!important;
+ background-color: white;
+ border: 1px solid white;
+ margin: 0 0px;
+ width: 150px;
+ height: 50;
+ padding:10px 10px ;
+ outline: none;
+ color:  #1b0b38!important;
+ font-size: 1rem;
+ font-weight: 600;
+ line-height: 1.4;
+ text-align: center;   
+}
+
+.register-button a{
+    color: #393469!important;
+}
+
+
+.license{
+    margin-top: 80px;
+    border-top: 1px solid gray;
+}
+
+.copyright, .creator{
+    padding-top: 20px;
+}
+.creator{
+    float: right;
+    margin-top: -60px;
+}
+
+.about .button a{
+    color: white;
+}
+
+.contact li{
+    text-decoration: none;
+    list-style: none;
+    margin-left: -40px;
+}
+
+.contact .mail{
+    color: #519e24;
+}
+
+.creator span {
+    color: #519e24;
+}
+
+
+#myBtn{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    z-index: 99;
+    color: #fff;
+    background: #262869;
+    padding: 10px;
+    border-radius: 10px;
+    
+    }
+    
+    #myBtn:hover{
+        background: #606060;
+    }
+    
+    
